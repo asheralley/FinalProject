@@ -21,3 +21,93 @@ select,
 textarea {
     max-width: 280px;
 }
+
+/* Main Navbar */
+.navbar {
+    padding: 1.8em;
+}
+
+/* Logo */
+.main-logo{
+    width: 220px;
+}
+
+/*Sticky nav*/
+.sticky-nav {
+    display: block;
+    background: #fff;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 1em;
+    box-shadow: 0 4px 4px 0 rgba(12,0,51,0.1);
+    z-index: 1000;
+    animation: fadeIn 0.5s;
+}
+
+.nav-hide {
+    transform: scaleY(0);
+    display: none;
+}
+
+.nav-flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+.scroll-nav{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.main-logo-sticky{
+    width: 180px;
+}
+
+/*.carousel-caption.d-none.d-md-block {
+    text-align: center;
+    bottom: 0;
+    top: 0;
+    padding: 10em 1.2em;
+    margin: 0;
+    right: 0;
+    left: auto;
+    height: 100%;
+    background: rgba(255,255,255,0.3);
+}
+
+.cta-sub{
+    margin-top: 1.2em;
+}*/
+
+.accordian-content{
+    margin-top: 3em;
+}
+
+.grab-heading{
+    margin-bottom: 1.2em;
+}
+
+/* Footer */
+footer {
+    background: #53B5E1;
+}
+
+.lower-footer {
+    background: #3F50EA;
+}
+
+/* Navbar animation */
+@keyframes fadeIn {
+    0% {
+        transform: scaleY(0);
+        transform-origin: top;
+    }
+    100% {
+        transform: scaleY(1);
+        transform-origin: top;
+    }
+}
+
+
