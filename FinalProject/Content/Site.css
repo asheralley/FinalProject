@@ -91,13 +91,67 @@ textarea {
 
 /* Footer */
 footer {
-    background: #53B5E1;
+    background: #353535;
+    color: #FCFCFC;
+    padding: 2.9em 2.0em 2.0em;
+}
+
+footer h4{
+    margin-bottom: 0.6em;
+}
+
+.footer-ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.footer-ul li {
+    margin-bottom: 0.5em;
 }
 
 .lower-footer {
-    background: #3F50EA;
+    padding: 1.2em 0 0;
+    display: flex;
+    justify-content: space-between;
 }
 
+.footer-spacer hr{
+    border-color: #fcfcfc;
+}
+
+.sprites {
+    display: inline;
+    list-style: none;
+    padding: 0;
+}
+
+.sprites li{
+    display: inline;
+}
+
+.sprites li a {
+    color: transparent;
+}
+
+.sprites li a:hover {
+    color: transparent;
+}
+
+.sprites li a:hover svg {
+    fill: #787878;
+}
+
+.sprites li svg {
+    width: 50px;
+    height: 50px;
+    fill: #fcfcfc;
+}
+
+.main-logo-footer {
+    width: 180px;
+    vertical-align: super;
+}
 /* Navbar animation */
 @keyframes fadeIn {
     0% {
